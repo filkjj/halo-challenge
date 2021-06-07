@@ -1,0 +1,8 @@
+.newtodosinput{
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-start;
+    >form{
+        width: 100%;
+    }
+}

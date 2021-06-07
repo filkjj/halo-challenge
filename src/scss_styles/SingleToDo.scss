@@ -1,0 +1,54 @@
+.singletodo{
+    display: flex;
+    justify-content: space-between;
+    border: 1px ridge rgba($color: gray, $alpha: .15);
+    padding: 5px;
+    font-size: larger;
+
+}
+
+.button__marker{
+    >button{
+        border-radius: 100%;
+        color: rgba($color: gray, $alpha: 0);
+    }
+}
+
+.button__delete__toDo{
+    >button{
+        scale: 1.25;
+        border: 0px;
+        border-radius: 25%;
+        background-color: rgb(163, 136, 136);
+        color: red;
+    }
+}
+
+
+.single--todo--completed{
+    text-decoration: line-through;
+}
+
+// .single-todo-uncompleted{
+//   not needed atm    
+// }
+
+.button--delete--show{
+    opacity: 1;
+}
+
+.button--delete--hide{
+    opacity: 0;
+}
+
+.buttonMarked--completed{
+    >button{
+        background-color: green;
+    }
+}
+
+.buttonMarked--uncompleted{
+    >button{
+        background-color: gray;
+    }
+}

@@ -1,0 +1,22 @@
+.mainscreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+    >div{
+        border: 1px ridge rgba($color: gray, $alpha: .25);
+        padding: 2px;
+        height: fit-content;
+        width: 500px;
+    }
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
